@@ -1,0 +1,33 @@
+# Пользовательские данные: базы, резервные копии, журналы, настройки (не публиковать)
+*.db
+*.db-journal
+*.db-wal
+*.db-shm
+*.part
+*.restore-tmp
+backups/
+logs/
+*.log
+settings.json
+
+# Экспортированные отчёты
+*.csv
+exports/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+
+# Сборка
+build/
+dist/
+*.spec
+
+# IDE / ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
