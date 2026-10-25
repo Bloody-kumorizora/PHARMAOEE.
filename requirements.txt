@@ -1,0 +1,4 @@
+# PharmaOEE не требует сторонних пакетов: используются только стандартная библиотека Python 3.10+,
+# Tkinter и SQLite. Tkinter должен быть установлен в системной сборке Python
+# (Windows — входит в установщик python.org; Linux — пакет python3-tk / python3-tkinter).
+# Тесты используют стандартный unittest: python -m unittest -v
